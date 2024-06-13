@@ -1,0 +1,42 @@
+@keyframes slide {
+    from{
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+.animation-scroll {
+  display: inline-block;
+  white-space: nowrap;
+    animation: slide 7s linear infinite;
+}
+
+
+.rfm-marquee{
+  margin-right: 10px;
+}
+
+/* 
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-container {
+  display: flex;
+  animation: slide 15s linear infinite;
+}
+
+.scroll-container:nth-child(2) {
+  animation-delay: 5s;
+}
+
+.scroll-item {
+  padding: 5px;
+} */
